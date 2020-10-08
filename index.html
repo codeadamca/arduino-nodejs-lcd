@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+
+        <title>Communicating from Node.js to an Arduino</title>
+        
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js'></script>
+
+    </head>
+    <body>
+
+        <h1>Communicating from Node.js to an Arduino</h1>
+
+        <input type="text" name="message" id="message">
+
+        <script>
+        
+        var typingTimer;
+
+        document.getElementById('message').onkeyup = function() {
+            
+            clearTimeout(typingTimer);
+            typingTimer = setTimeout(doneTyping, 1000);
+
+        };
+
+        var socket = io();
+
+        function doneTyping () {
+            
+            socket.emit('newMessage', { "message":document.getElementById('message').value });
+            console.log(document.getElementById('message').value);
+                
+        }
+            
+        </script>
+        
+    </body>
+</html>
