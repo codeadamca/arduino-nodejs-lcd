@@ -157,7 +157,7 @@ The previous code will listen to the serialport for an incoming message. Once a 
 
 You will need to setup the following circuit using your Arduino:
 
-![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-nodejs-lcd/master/tinkercad-nodejs-lcd.png)
+![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-nodejs-lcd/main/tinkercad-nodejs-lcd.png)
 
 [View the Circuit on Tinkercad](https://www.tinkercad.com/things/9f5oKIl94XS)
 
