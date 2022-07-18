@@ -1,4 +1,4 @@
-# arduino-nodejs-lcd
+# Arduino, Node.js, and an LCD Screen
 
 This tutorial will walkthrough the process of creating a web interface to display text on an Arduino connected LCD. The web interface will include a text box to type a message in.
 
