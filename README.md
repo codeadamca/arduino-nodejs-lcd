@@ -100,7 +100,8 @@ app.listen(3000);
 
 The above code uses Socket.io to listen for a message from the HTML/JavaScript webpage and then simply passes on the message to the connected Arduino.
 
-> Note: Make sure to [change the name of the serial port](https://github.com/codeadamca/arduino-from-nodejs).
+> [!Note]  
+> Make sure to [change the name of the serial port](https://github.com/codeadamca/arduino-from-nodejs).
 
 ## The Arduino
 
